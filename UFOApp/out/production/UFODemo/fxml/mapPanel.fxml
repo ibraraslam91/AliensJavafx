@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MapController">
+   <children>
+      <ImageView fx:id="map_Image" fitHeight="509.0" fitWidth="757.0" layoutX="24.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+
+      </ImageView>
+      <ImageView fx:id="imageV_OR" fitHeight="25.0" fitWidth="25.0" layoutX="83.0" layoutY="87.0" onMouseClicked="#onClickedOR" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_CA" fitHeight="25.0" fitWidth="25.0" layoutX="61.0" layoutY="209.0" onMouseClicked="#onClickedCA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NV" fitHeight="25.0" fitWidth="25.0" layoutX="114.0" layoutY="172.0" onMouseClicked="#onClickedNV" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_ID" fitHeight="25.0" fitWidth="25.0" layoutX="164.0" layoutY="110.0" onMouseClicked="#onClickedID" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_WA" fitHeight="25.0" fitWidth="25.0" layoutX="106.0" layoutY="33.0" onMouseClicked="#onClickedWA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MT" fitHeight="25.0" fitWidth="25.0" layoutX="218.0" layoutY="72.0" onMouseClicked="#onClickedMT" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_WY" fitHeight="25.0" fitWidth="25.0" layoutX="249.0" layoutY="141.0" onMouseClicked="#onClickedWY" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_UT" fitHeight="25.0" fitWidth="25.0" layoutX="187.0" layoutY="201.0" onMouseClicked="#onClickedUT" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_AZ" fitHeight="25.0" fitWidth="25.0" layoutX="165.0" layoutY="280.0" onMouseClicked="#onClickedAZ" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_AK" fitHeight="25.0" fitWidth="25.0" layoutX="151.0" layoutY="391.0" onMouseClicked="#onClickedAK" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NM" fitHeight="25.0" fitWidth="25.0" layoutX="249.0" layoutY="282.0" onMouseClicked="#onClickedNM" pickOnBounds="true" preserveRatio="true">
+
+      </ImageView>
+      <ImageView fx:id="imageV_TX" fitHeight="25.0" fitWidth="25.0" layoutX="342.0" layoutY="358.0" onMouseClicked="#onClickedTX" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_ND" fitHeight="25.0" fitWidth="25.0" layoutX="342.0" layoutY="74.0" onMouseClicked="#onClickedND" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_SD" fitHeight="25.0" fitWidth="25.0" layoutX="342.0" layoutY="141.0" onMouseClicked="#onClickedSD" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NE" fitHeight="25.0" fitWidth="25.0" layoutX="335.0" layoutY="180.0" onMouseClicked="#onClickedNE" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_CO" fitHeight="25.0" fitWidth="25.0" layoutX="264.0" layoutY="209.0" onMouseClicked="#onClickedCO" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_KS" fitHeight="25.0" fitWidth="25.0" layoutX="350.0" layoutY="240.0" onMouseClicked="#onClickedKS" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_OK" fitHeight="25.0" fitWidth="25.0" layoutX="370.0" layoutY="288.0" onMouseClicked="#onClickedOK" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MN" fitHeight="25.0" fitWidth="25.0" layoutX="424.0" layoutY="88.0" onMouseClicked="#onClickedMN" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_IA" fitHeight="25.0" fitWidth="25.0" layoutX="430.0" layoutY="187.0" onMouseClicked="#onClickedIA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_WI" fitHeight="25.0" fitWidth="25.0" layoutX="476.0" layoutY="111.0" onMouseClicked="#onClickedWI" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MI" fitHeight="25.0" fitWidth="25.0" layoutX="557.0" layoutY="149.0" onMouseClicked="#onClickedMI" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MO" fitHeight="25.0" fitWidth="25.0" layoutX="445.0" layoutY="240.0" onMouseClicked="#onClickedMO" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_IL" fitHeight="25.0" fitWidth="25.0" layoutX="488.0" layoutY="202.0" onMouseClicked="#onClickedIL" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_IN" fitHeight="25.0" fitWidth="25.0" layoutX="542.0" layoutY="202.0" onMouseClicked="#onClickedIN" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_LA" fitHeight="25.0" fitWidth="25.0" layoutX="453.0" layoutY="366.0" onMouseClicked="#onClickedLA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_AR" fitHeight="25.0" fitWidth="25.0" layoutX="445.0" layoutY="296.0" onMouseClicked="#onClickedAR" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MS" fitHeight="25.0" fitWidth="25.0" layoutX="496.0" layoutY="333.0" onMouseClicked="#onClickedMS" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_AL" fitHeight="25.0" fitWidth="25.0" layoutX="542.0" layoutY="325.0" onMouseClicked="#onClickedAL" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_TN" fitHeight="25.0" fitWidth="25.0" layoutX="572.0" layoutY="281.0" onMouseClicked="#onClickedTN" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_KY" fitHeight="25.0" fitWidth="25.0" layoutX="572.0" layoutY="254.0" onMouseClicked="#onClickedKY" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_OH" fitHeight="25.0" fitWidth="25.0" layoutX="579.0" layoutY="187.0" onMouseClicked="#onClickedOH" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_PA" fitHeight="25.0" fitWidth="25.0" layoutX="647.0" layoutY="180.0" onMouseClicked="#onClickedPA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NY" fitHeight="25.0" fitWidth="25.0" layoutX="681.0" layoutY="133.0" onMouseClicked="#onClickedNY" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_FL" fitHeight="25.0" fitWidth="25.0" layoutX="624.0" layoutY="414.0" onMouseClicked="#onClickedFL" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_GA" fitHeight="25.0" fitWidth="25.0" layoutX="595.0" layoutY="325.0" onMouseClicked="#onClickedGA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_SC" fitHeight="25.0" fitWidth="25.0" layoutX="624.0" layoutY="303.0" onMouseClicked="#onClickedSC" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NC" fitHeight="25.0" fitWidth="25.0" layoutX="655.0" layoutY="280.0" onMouseClicked="#onClickedNC" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_VA" fitHeight="25.0" fitWidth="25.0" layoutX="647.0" layoutY="240.0" onMouseClicked="#onClickedVA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_WV" fitHeight="25.0" fitWidth="25.0" layoutX="617.0" layoutY="225.0" onMouseClicked="#onClickedWV" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_ME" fitHeight="25.0" fitWidth="25.0" layoutX="736.0" layoutY="65.0" onMouseClicked="#onClickedME" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_VT" fitHeight="25.0" fitWidth="25.0" layoutX="706.0" layoutY="110.0" onMouseClicked="#onClickedVT" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NH" fitHeight="25.0" fitWidth="25.0" layoutX="721.0" layoutY="121.0" onMouseClicked="#onClickedNH" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_DC" fitHeight="25.0" fitWidth="25.0" layoutX="674.0" layoutY="218.0" onMouseClicked="#onClickedDC" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_NJ" fitHeight="25.0" fitWidth="25.0" layoutX="697.0" layoutY="185.0" onMouseClicked="#onClickedNJ" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_DE" fitHeight="25.0" fitWidth="25.0" layoutX="697.0" layoutY="212.0" onMouseClicked="#onClickedDE" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_CT" fitHeight="25.0" fitWidth="25.0" layoutX="713.0" layoutY="162.0" onMouseClicked="#onClickedCT" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_MA" fitHeight="25.0" fitWidth="25.0" layoutX="736.0" layoutY="139.0" onMouseClicked="#onClickedMA" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+      <ImageView fx:id="imageV_RI" fitHeight="25.0" fitWidth="25.0" layoutX="734.0" layoutY="159.0" onMouseClicked="#onClickedRI" pickOnBounds="true" preserveRatio="true">
+ 
+      </ImageView>
+   </children>
+</AnchorPane>

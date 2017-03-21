@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.IntroController" >
+   <children>
+      <Label layoutX="312.0" layoutY="25.0" prefHeight="20.0" prefWidth="183.0" text="Welcome To The Ripley API" />
+      <Label layoutX="305.0" layoutY="50.0" prefHeight="20.0" prefWidth="237.0" text="Please select years to analyze data" />
+      <Label layoutX="271.0" layoutY="76.0" prefHeight="16.0" prefWidth="310.0" text="Please select years From and To then Press Go" />
+      <Label fx:id="label_v" layoutX="495.0" layoutY="27.0" prefHeight="16.0" prefWidth="129.0" />
+      <Label fx:id="label_R" layoutX="286.0" layoutY="135.0" prefHeight="16.0" prefWidth="292.0" />
+      <Label fx:id="Label_info" layoutX="324.0" layoutY="180.0" prefHeight="16.0" prefWidth="223.0" />
+   </children>
+</AnchorPane>

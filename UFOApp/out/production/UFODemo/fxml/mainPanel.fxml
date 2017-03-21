@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="button_R" disable="true" layoutX="10.0" layoutY="568.0" mnemonicParsing="false" onAction="#onRClick" text="&lt;" />
+      <Button fx:id="button_L" disable="true" layoutX="776.0" layoutY="568.0" mnemonicParsing="false" onAction="#onLClick" text="&gt;" />
+      <ComboBox fx:id="to_combo" layoutX="585.0" layoutY="18.0" prefWidth="150.0" />
+      <ComboBox fx:id="from_combo" layoutX="359.0" layoutY="18.0" prefWidth="150.0" />
+      <Button layoutX="753.0" layoutY="18.0" mnemonicParsing="false" onAction="#onBtnGoClick" text="Go" />
+      <Label layoutX="303.0" layoutY="23.0" text="From :" />
+      <Label layoutX="543.0" layoutY="23.0" text="To : " />
+      <Pane fx:id="panelHolder" layoutX="25.0" layoutY="54.0" prefHeight="502.0" prefWidth="778.0" />
+   </children>
+</AnchorPane>

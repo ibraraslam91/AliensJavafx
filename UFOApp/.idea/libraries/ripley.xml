@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ripley">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/javatask/ripley.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
